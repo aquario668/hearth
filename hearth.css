@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+body {
+    background-color: #000;    
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  .neon {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    top: -520px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+    text-shadow:
+      0 0 5px rgb(208, 15, 195),
+      0 0 10px rgb(208, 15, 195),
+      0 0 20px rgb(208, 15, 195),
+      0 0 40px rgb(208, 15, 195),
+      0 0 80px rgb(208, 15, 195),
+      0 0 90px rgb(208, 15, 195),
+      0 0 100px rgb(208, 15, 195),
+      0 0 150px rgb(208, 15, 195);
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <meta charset="UTF-8">
+  <title>❤️ I LOVE YOU ❤️</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./game.css">
+
+</head>
+<body>
+    <style>
+        .corazon {
+          color: red;
+          cursor: pointer;
+          animation: latido 1s infinite alternate;
+        }
+        .enlace-oculto {
+            text-decoration: none;
+            color: pink;
+    display: none;
+  }
+        @keyframes latido {
+          0% { transform: scale(1); }
+          100% { transform: scale(1.1); }
+        }
+      </style>
+      <p><span class="corazon">♥</span></p>
+      
+    <audio autoplay loop  src="Can't Take My Eyes off You (192).mp3"></audio>
+<!-- partial:index.partial.html -->
+<button id="newGame" class="hide">New Game</button>
+<div id="results" class="hide">Results: 0/0</div>
+<div class="attempts">Attempt <span id="attempt">-</span> of 2</div>
+<div id="wrapper"></div>
+<a href="hearth.html" class="enlace-oculto" id="miEnlace">Ver algo hermoso como tu</a>
+
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js'></script>
+<script src='https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.8/dist/global/Rx.umd.min.js'></script>
+<script src='https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js'></script>
+<script src='https://cdn.rawgit.com/TylorS/cycle-snabbdom/master/dist/cycle-snabbdom.js'></script><script  src="./game.js"></script>
+
+</body>
+</html>
